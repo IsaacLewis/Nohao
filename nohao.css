@@ -1,0 +1,15 @@
+body {
+    background: #f2f2ff;
+    margin: 0px;
+    padding: 10px;
+    border-top: thick solid #7799bb;
+    color: #5e5e50;
+    font-size: 110%;
+    font-family: 'Helvetica', Palatino, Serif;
+
+}
+
+.Nohao {
+    color:#7799bb;
+    font-style:italic;
+}

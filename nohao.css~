@@ -1,0 +1,8 @@
+body {
+background: #f2f2ff;
+}
+
+.Nohao {
+color:#7799bb;
+font-style:italic;
+}

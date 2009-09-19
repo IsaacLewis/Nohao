@@ -1,0 +1,3 @@
+RewriteEngine on
+# rewrite URLs with no periods or slashes, appending the query_string if neccesary
+RewriteRule ^([^\.\/]+)$ get-nohao.php?nohao=$1&%{query_string}
