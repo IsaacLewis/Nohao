@@ -15,5 +15,16 @@ while ($nohao = mysql_fetch_array($result)) {
 	echo "<div><a href='".$nohao['name']."'><b>".$nohao['name']."</b><i>Nohao</i></a></div>";
 }
 ?>
+<hr>
+  <form method='post' action='create-new-nohao.php'>
+    <h3>Create new Nohao</h3>
+    Topic: <input type='text' name='nohaoName' />
+    <br>
+    <b>Submit a link to your new Nohao: </b><br>
+    Title: <input type='text' length='140' name='title' /><br/>
+    URL: <input type='text' name='url' /><br/>
+    <input type='hidden' name='type' value='website' />
+    <input type='submit' value='Submit!' />
+  </form>
 </body>
 </html>
